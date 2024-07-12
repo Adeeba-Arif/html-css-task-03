@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vp;
+}
+.container {
+    display: flex ; 
+    /* display: inline-block;  */
+    align-items: right;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.text {
+    position: absolute;
+    color: #ffffff;
+    position: absolute;
+    font-size: 50px;
+    top: 50px;
+    bottom: 10px;
+    right: 6px;
+    left: 6px;
+}
+.form{
+    max-width: 400px;
+    display: flex 1;
+    align-items: left;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.img-container{
+    position: relative;
+    display: flex 1;
+    /* align-items: center; */
+    max-width: 600px;
+}
