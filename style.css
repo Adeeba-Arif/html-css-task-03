@@ -26,7 +26,7 @@ body{
     font-family: "Times New Roman", Times, serif; 
     max-width: 400px;
     display: flex 1;
-    text-align: center;  
+    text-align: left;  
     background-color: aliceblue;
     border-radius: 10px;
     padding-left: 50px;
@@ -41,4 +41,5 @@ body{
 .checkout{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
