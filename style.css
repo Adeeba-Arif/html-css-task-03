@@ -2,12 +2,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    
+    height: 100vh; 
 }
 .container {
     padding-top: 10px;
     display: flex ; 
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     
@@ -16,11 +16,10 @@ body{
 .text {
     position: absolute;
     color: white;
-    position: absolute;
-    top: 300px;
+    top: 200px;
     bottom: 10px;
     right: 35%;
-    left: 6px;
+    left: 180px;
 }
 .form{
     font-family: "Times New Roman", Times, serif; 
@@ -43,3 +42,11 @@ body{
     gap: 20px;
     align-items: center;
 }
+button{
+    width: 250px;
+}
+  @media (max-width: 600px) {
+    .container {
+      direction: column;
+    }
+  }
